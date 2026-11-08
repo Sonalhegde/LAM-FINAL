@@ -1,7 +1,7 @@
 # LAM Research Challenge 2026 — Stage 3: Day 1 & Day 2
 # Comprehensive Process Automation & Fluid Calibration Report
 **Team:** 21 of 25  
-**Workspace:** `d:\LAM Final`  
+**Workspace:** `LAM-FINAL`  
 **System Architecture:** Dual ESP32 Controller & Sensor Node (FreeRTOS 1000 Hz / ESP-IDF v5.2 & Arduino Framework)  
 **Process Target:** 3-Step Autonomous Plant Sequence:
 1. Step 1: 2.0 L Flush Line into 2.0 L external jug with auto-shutoff

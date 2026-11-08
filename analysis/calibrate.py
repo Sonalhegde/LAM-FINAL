@@ -1,7 +1,7 @@
 r"""
 LAM Research Challenge 2026 - Stage 3: Industrial Paint Mixing
 Physical Rig Characterization & Volumetric Accuracy Analysis
-Workspace: d:\LAM Final
+Workspace: LAM-FINAL
 
 Parses analysis/data/calibration_trials.csv:
 - Day 1: Individual Flow Transmitter (FT) Water Characterization & Initial Paint Batch
