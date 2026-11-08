@@ -1,0 +1,16 @@
+{
+    "idf.espIdfPathWin": "C:\\esp\\v5.2.7\\esp-idf",
+    "idf.toolsPathWin": "C:\\Espressif\\tools",
+    "idf.pythonBinPathWin": "C:\\Espressif\\tools\\python\\v5.2.7\\venv\\Scripts\\python.exe",
+    "idf.target": "esp32",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "*.h": "cpp",
+        "*.cpp": "cpp",
+        "*.c": "c"
+    },
+    "idf.currentSetup": "C:\\esp\\v5.2.7\\esp-idf",
+    "idf.port": "COM4",
+    "idf.monitorPort": "COM4"
+}
+

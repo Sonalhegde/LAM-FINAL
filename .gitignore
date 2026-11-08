@@ -1,0 +1,36 @@
+# ESP-IDF / Arduino build artifacts
+build/
+**/build/
+*.bin
+*.elf
+*.map
+sdkconfig.old
+sdkconfig.ci
+
+# Object files & libraries
+*.o
+*.obj
+*.d
+*.a
+
+# Editor & tooling directories
+.codex/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*~
+
+# OS artifacts
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Compressed archives
+*.rar
+*.zip
+*.7z
+*.tar.gz
+

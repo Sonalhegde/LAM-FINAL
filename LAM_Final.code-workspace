@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "name": "ESP32 #1 - Controller",
+            "path": "controller_esp32_1"
+        },
+        {
+            "name": "ESP32 #2 - Sensor",
+            "path": "sensor_esp32_2"
+        },
+        {
+            "name": "LAM Final Root",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "idf.espIdfPathWin": "C:\\esp\\v5.2.7\\esp-idf",
+        "idf.toolsPathWin": "C:\\Espressif\\tools",
+        "idf.pythonBinPathWin": "C:\\Espressif\\tools\\python\\v5.2.7\\venv\\Scripts\\python.exe",
+        "idf.target": "esp32"
+    }
+}
+

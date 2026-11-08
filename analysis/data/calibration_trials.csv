@@ -1,0 +1,17 @@
+trial_id,day,fluid,line,test_type,duration_s,pwm_pct,pulses,target_ml,actual_ml,flow_mlps,k_factor_calc,error_pct,notes
+1,DAY_1,WATER,RED,timed_burst,5.0,100,33,50.0,50.0,10.0,0.660,0.00,5s preliminary water flow burst
+2,DAY_1,WATER,RED,steady_run,10.0,100,65,100.0,100.0,10.0,0.650,0.00,10s steady-state flow calibration (10 mL/s)
+3,DAY_1,WATER,BLUE,timed_burst,5.0,100,52,50.0,50.0,10.0,1.040,0.00,5s preliminary water flow burst
+4,DAY_1,WATER,BLUE,steady_run,10.0,100,103,100.0,100.0,10.0,1.030,0.00,10s steady-state flow calibration (10 mL/s)
+5,DAY_1,WATER,YELLOW,timed_burst,5.0,100,104,50.0,50.0,10.0,2.080,0.00,5s preliminary water flow burst
+6,DAY_1,WATER,YELLOW,steady_run,10.0,100,208,100.0,100.0,10.0,2.080,0.00,10s steady-state flow calibration (10 mL/s)
+7,DAY_1,WATER,YELLOW,closed_loop_dose,120.0,100,2496,2400.0,1200.0,10.0,1.040,-50.00,Diagnostic dose: halved initial K identified
+8,DAY_1,WATER,RED,closed_loop_dose,15.0,100,98,300.0,150.0,10.0,0.327,-50.00,Diagnostic dose: halved initial K identified
+9,DAY_1,WATER,BLUE,closed_loop_dose,15.0,100,155,300.0,150.0,10.0,0.517,-50.00,Diagnostic dose: halved initial K identified
+10,DAY_1,WATER,RED,calibrated_dose,30.0,100,196,300.0,300.2,10.0,0.654,0.07,Verified single dose: K=0.654 locked
+11,DAY_1,WATER,BLUE,calibrated_dose,30.0,100,310,300.0,299.6,10.0,1.034,-0.13,Verified single dose: K=1.034 locked
+12,DAY_1,WATER,YELLOW,calibrated_dose,240.0,100,4992,2400.0,2401.5,10.0,2.080,0.06,Verified single dose: K=2.080 locked
+13,DAY_1,PAINT_MIX,ALL,initial_batch,240.0,100,5498,3000.0,3200.0,13.3,0.000,6.67,Day 1 initial batch: 3.2L collected (~100mL line water + ~3100mL paint) - Mustard achieved
+14,DAY_2,WATER,FLUSH,step1_uncal,120.0,100,2068,2000.0,1200.0,10.0,1.034,-40.00,Day 2 Step 1 preliminary flush: 1.2L delivered with K=1.034 -> derived K_flush=1.723
+15,DAY_2,WATER,FLUSH,step1_verified,200.0,100,3443,2000.0,1998.0,10.0,1.723,-0.10,Day 2 Step 1 calibrated flush into jug: 1998 mL delivered (99.90% accuracy)
+16,DAY_2,PAINT_MIX,ALL,demo_batch,240.0,100,5498,3000.0,3150.0,13.1,0.000,5.00,Day 2 Demo test: 3150 mL collected (~100mL line water + 3050mL paint) - Mustard colour confirmed!
